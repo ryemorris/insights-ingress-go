@@ -10,7 +10,7 @@ metadata:
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
       == "security-compliance"
   creationTimestamp: null
-  pipelinesascode.tekton.dev/pipeline: https://github.com/ryemorris/konflux-pipelines/pipelines/docker-build-oci-ta.yaml
+  pipelinesascode.tekton.dev/pipeline: https://github.com/ryemorris/konflux-pipelines/pipelines/raw/main/docker-build-oci-ta.yaml
   labels:
     appstudio.openshift.io/application: test
     appstudio.openshift.io/component: insights-ingress
