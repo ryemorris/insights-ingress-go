@@ -6,3 +6,4 @@ coverage.txt
 .sonar/sonar-scanner.properties
 gopath
 development/filebased/
+.tekton/old_*
