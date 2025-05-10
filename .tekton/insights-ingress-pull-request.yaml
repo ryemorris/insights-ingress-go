@@ -32,7 +32,8 @@ spec:
     value: ./Dockerfile
   pipelineRef:
     name: docker-build-oci-ta
-  taskRunTemplate: {}
+  taskRunTemplate:
+    serviceAccountName: build-pipeline-insights-ingress
   workspaces:
   - name: git-auth
     secret:
